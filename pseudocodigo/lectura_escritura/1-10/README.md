@@ -2,23 +2,23 @@
 <h3>Calculadora simple:</h3>
 <pre>
     <code>
-        Algoritmo Calculadora
+        Algoritmo calculadora_simple
 	        Escribir " Primer numero "
 	        Leer numero_1
-	        Escribir " Segundo numero "
-	        Leer numero_2
-	        definir suma Como Entero
-	        suma <- numero_1 + numero_2
-	        Definir resta Como Entero
-	        resta <- numero_1 - numero_2
-	        Definir multilplicacion Como Entero
-	        multilplicacion <- numero_1 * numero_2
-	        Definir division Como Real
-	        division <- numero_1 / numero_2
-	        Escribir "El resultado de la suma es " suma
-	        Escribir "El resultado de la resta es " resta
-	        Escribir "El resultado de la multiplicacion es " multilplicacion
-	        Escribir "El resultado de la division es " division
+		        Escribir " Segundo numero "
+		        Leer numero_2
+		        	definir suma Como Entero
+				        suma <- numero_1 + numero_2
+				        Definir resta Como Entero
+				        resta <- numero_1 - numero_2
+				        Definir multilplicacion Como Entero
+				        multilplicacion <- numero_1 * numero_2
+				        Definir division Como Real
+				        division <- numero_1 / numero_2
+		        Escribir "El resultado de la suma es " suma
+		        Escribir "El resultado de la resta es " resta
+		        Escribir "El resultado de la multiplicacion es " multilplicacion
+		        Escribir "El resultado de la division es " division
         FinAlgoritmo
     </code>
 </pre>
@@ -30,16 +30,16 @@
     <pre>
         <code>
             Algoritmo Area_perimetro
+		Definir area Como Real
+		Definir perimetro Como logico
 	            Escribir "Escribe la base"
 	            Leer Base
 	            Escribir "Escribe la altura"
 	            Leer Altura
-	            Definir area Como Real
-	            resultado_area <- Base * Altura
-	            Escribir "El area el igual al: " resultado_area
-	            Definir perimetro Como logico
-	            resultado_perimetro <-  (Base + Altura) * 2
-	            Escribir "El perimetro es igual a " resultado_perimetro
+		            resultado_area <- Base * Altura
+		            Escribir "El area el igual al: " resultado_area
+		            resultado_perimetro <-  (Base + Altura) * 2
+		            Escribir "El perimetro es igual a " resultado_perimetro
             FinAlgoritmo
         </code>
     </pre>
@@ -51,15 +51,15 @@
     <pre>
         <code>
             Algoritmo pr0medio
+		Definir promedio Como Entero
 	            Escribir "Escribe el primer numero"
 	            Leer number_1
 	            Escribir "Escribe el segundo numero"
 	            Leer number_2
 	            Escribir "Escribe el tercer numero"
 	            Leer number_3
-	            Definir promedio Como Entero
-	            media <- (number_1 + number_2 + number_3) /3
-	            Escribir 'El resultado es ' media
+		            media <- (number_1 + number_2 + number_3) /3
+		            Escribir 'El resultado es ' media
             FinAlgoritmo
         </code>
     </pre>
