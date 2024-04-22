@@ -8,4 +8,3 @@
 ## [Matrizes](./pseudocodigo/Matrices/)
 ## [Funciones](./pseudocodigo/Funciones/)
 ## [Recursividad](./pseudocodigo/Recursividad/)
-## [Condicionales](./pseudocodigo/condicionales)
