@@ -1,34 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /*Primera parte la barra de navegacion*/
 nav{
     background-color: black;
     height: 95px;
-
 }
+
 
 .image1{
     height: 75px; /*Alto*/
     width:auto; /*Ancho*/
 }
-
-select{
-    top: 100px;
+lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
 
 /*main*/
 /*Imagen del lobo*/
 .lobo{
-    
     width: 300px;
     height: 300px;
 }
 
 /*JS*/
 #icon_js{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
+
 /*Angular*/
 #icon_angular{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
