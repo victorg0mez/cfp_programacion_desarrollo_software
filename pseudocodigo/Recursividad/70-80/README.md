@@ -59,9 +59,8 @@
 <h2>Ejercicio 4</h2>
         <h3>Potencia</h3>
     <pre>
-            <code>
-
-            </code>
+        <code>
+        </code>
     </pre>
 <br>
 
@@ -69,7 +68,6 @@
         <h3>MCD</h3>
     <pre>
             <code>
-            
             </code>
     </pre>
 <br>
@@ -78,7 +76,6 @@
         <h3>Impresion inversa de una cadena</h3>
     <pre>
             <code>
-            
             </code>
     </pre>
 <br>
@@ -87,7 +84,6 @@
         <h3>Calcula de la suma de digitos</h3>
     <pre>
             <code>
-
             </code>
     </pre>
 <br>

@@ -130,7 +130,6 @@ Fin Funcion
         <h3>Promedio de lista</h3>
     <pre>
             <code>
-                
             </code>
     </pre>
 <br>
@@ -139,7 +138,6 @@ Fin Funcion
         <h3>Inversion de una cadena</h3>
     <pre>
             <code>
-            
             </code>
     </pre>
 <br>
@@ -148,7 +146,6 @@ Fin Funcion
         <h3>Verificar numero primo</h3>
     <pre>
             <code>
-
             </code>
     </pre>
 <br>
@@ -157,6 +154,5 @@ Fin Funcion
         <h3>Conversor de grados</h3>
     <pre>
             <code>
-            
             </code>
     </pre>

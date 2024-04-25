@@ -255,7 +255,6 @@
         <h3>Laberinto</h3>
     <pre>
             <code>
-            
             </code>
     </pre>
 <br>
@@ -264,7 +263,6 @@
         <h3>Juego de la vida</h3>
     <pre>
             <code>
-
             </code>
     </pre>
 <br>
@@ -273,7 +271,6 @@
         <h3>Laberinto con obstaculos</h3>
     <pre>
             <code>
-            
             </code>
     </pre>
 <br>
@@ -282,7 +279,6 @@
         <h3>Rompecabezas del 15</h3>
     <pre>
             <code>
-            
             </code>
     </pre>
 <br>
