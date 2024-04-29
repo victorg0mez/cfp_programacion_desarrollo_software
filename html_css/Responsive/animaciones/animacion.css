@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:royalblue  ;
+}
+
+.cara{
+    border-radius:50% ;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ojo1{
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 5px;
+    animation: mover 3s infinite; 
+}
+
+.ojo2{
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 5px;
+    animation: anime 3s infinite; 
+}
+
+@keyframes anime {
+	
+        0% {
+            transform: translate(0px);
+        }
+        30%{
+            transform: translate(20px,40px);
+            width: 50px;
+            border-radius: 40px;
+        }
+        60%{
+            transform: translate(70px,-80px);
+            width: 50px;
+            border-radius: 40px;
+        }
+        90%{
+            transform: translate(60px,-80px);
+            width: 50px;
+            height: 20px;
+            border-radius: 40px;
+        }
+        100%{
+            transform: translate(0);
+            width: 75px;
+            height: 75px;
+            border-radius: 40px;
+    }
+}
+        
+    
+
+@keyframes mover {
+	
+    0% {
+        transform: translate(0px);
+    }
+    30%{
+        transform: translate(20px,40px);
+        width: 50px;
+        border-radius: 40px;
+    }
+    60%{
+        transform: translate(70px,-80px);
+        width: 50px;
+        border-radius: 40px;
+    }
+    90%{
+        transform: translate(60px,-80px);
+        width: 50px;
+        height: 20px;
+        border-radius: 40px;
+    }
+    100%{
+        transform: translate(0);
+        width: 75px;
+        height: 75px;
+        border-radius: 40px;
+    }
+}
+
