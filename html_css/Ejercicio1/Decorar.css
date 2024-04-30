@@ -1,0 +1,36 @@
+*{
+    color: antiquewhite;
+    background-color: black;
+}
+/*Titulo*/
+h1{
+    text-align: center;
+}
+
+/*Parrafo*/
+p {
+    text-align: center;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.definicion{
+    width: 50%;
+}
+
+/*Pie de la pagina*/
+footer{
+    text-align: center;
+    margin: 2cm;
+}
+
+/*Imagen del pie de pagina*/
+.imagen_pie{
+    height: 20%;
+    width: 40%;
+    
+}

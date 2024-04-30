@@ -1,0 +1,43 @@
+/*Color del body*/
+body{
+    background-color:darkblue;
+}
+/*Alineacion del titulo*/
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+/*Primer fieldset del formulario*/
+.principal{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    background-color: aquamarine;
+}
+/*Segundo fieldset del formulario*/
+.secundario{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;  
+    margin-top: 4%;
+    background-color: burlywood;
+}
+/*Div de input radius del formulario */
+.opcion_multi{
+    display: flex;
+    justify-content:center;
+}
+
+button{
+    margin-left: 48%;
+    margin-top: 25px;
+
+}
+
+button:hover{
+background-color:grey;
+}
+
+input:hover{
+    background-color: cornflowerblue;
+}
