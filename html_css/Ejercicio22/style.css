@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.coronavirus{
+    background-color: plum;
+    width: 100vw;
+    height: 4vh;
+    text-align: center;
+
+}
+
+
+/* barra navegacion---------------------------------- */
+.sesion{
+    background-color: white;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.lista-sesion{
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    height: 63px; /*alto*/
+    width: 175px; /*ancho*/
+}
+
+
+ /* Formulario------------------------------------- */
+.form{
+    background-color: plum;
+    width: 100vw;
+    height: 40vh;
+}
+
+
+
+
+/* fotos---------------------------------------------- */
+footer{
+    background-color: grey;
+    width: 100vw;
+    height: 46vh;
+}
