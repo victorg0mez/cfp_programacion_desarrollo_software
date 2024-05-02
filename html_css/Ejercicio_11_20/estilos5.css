@@ -1,0 +1,15 @@
+*{
+    background-color: cornflowerblue;
+}
+
+img{
+    width: 85dvb;
+    height: 51dvh;
+
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    padding: 5cm;
+}

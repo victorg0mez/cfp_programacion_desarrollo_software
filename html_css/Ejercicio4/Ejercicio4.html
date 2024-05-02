@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Ejercicio10.css">
+</head>
+
+<body>
+    <h1>Encuesta</h1>
+    <!--Primera seccion del formulario-->
+    <form>
+        <div class="principal">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label>Nombre</label><br>
+                <input type="text"><br>
+                <label>DPI</label><br>
+                <input type="number"><br>
+                <label>Celular</label><br>
+                <input type="number"><br>
+                <label>Email</label><br>
+                <input type="email"><br>
+                <label>Numero de tarjeta de credito</label><br>
+                <input type="number"><br>
+            </fieldset>
+        </div>
+        <!--Segunda seccion del formulario-->
+        <div class="secundario">
+            <fieldset>
+                <legend>Grado de estudio</legend>
+                <label>Ultimo año cursado</label><br>
+                <select name="grado">
+                    <option value="Primaria">Primaria</option>
+                    <option value="Basicos">Basicos</option>
+                    <option value="Diversificado">Diversificado</option>
+                </select><br>
+                <!--Opciones del formulario -->
+                <label>¿Deseas seguir la universidad?</label><br>
+                <div class="opcion_multi">
+                    <p>Si</p>
+                    <input type="radio">
+                    <p>No</p>
+                    <input type="radio">
+                    <p>Estoy indeciso</p>
+                    <input type="radio">
+
+                    <br>
+                </div>
+                <label>¿Si tu respuesta es si dinos que quieres estudiar y porque?</label><br>
+                <textarea name="u" id="u" cols="45" rows="5"></textarea>
+            </fieldset>
+        </div>
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>

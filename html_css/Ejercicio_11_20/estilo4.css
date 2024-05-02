@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+    color: azure;
+
+}
+
+ul{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style: none;
+background-color: brown;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+background-color: cadetblue;
+border: 1px solid;
+
+}
+
+
+
+

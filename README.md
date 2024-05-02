@@ -1,0 +1,26 @@
+# cfp_programacion_desarrollo_software
+
+## [Lectura y Escritura](./pseudocodigo/lectura_escritura)
+## [Condiciones](./pseudocodigo/Condiciones/)
+## [Bucles Repetir y mientras](./pseudocodigo/Bucles_repetir_mientras/)
+## [Bucles Para](./pseudocodigo/Bucles_Para/)
+## [Vectores](./pseudocodigo/Vectores/)
+## [Matrizes](./pseudocodigo/Matrices/)
+## [Funciones](./pseudocodigo/Funciones/)
+## [Recursividad](./pseudocodigo/Recursividad/)
+
+# HTML y CSS
+## [Ejercicio 1](html_css/Ejercicio1/)
+## [Ejercicio 2](html_css/Ejercicio2/)
+## [Ejercicio 3](html_css/Ejercicio3/)
+## [Ejercicio 4](html_css/Ejercicio4/)
+## [Ejercicio 5](html_css/Ejercicio05/)
+## [Ejercicio 6](html_css/Ejercicio6/)
+## [Ejercicio 7](html_css/Ejercicio7/)
+## [Ejercicio 8](html_css/Ejercicio8/)
+## [Ejercicio 9](html_css/Ejercicio9/)
+## [Ejercicio 10](html_css/Ejercicio10/)
+## [Ejercicio 11_20](html_css/Ejercicio_11_20/)
+## [Ejercicio 21](html_css/Ejercicio21/)
+## [Ejercicio 22](html_css/Ejercicio22/)
+## [Ejercicio 23](html_css/Ejercicio23/)

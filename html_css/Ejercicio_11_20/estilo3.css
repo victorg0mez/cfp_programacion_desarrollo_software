@@ -1,0 +1,23 @@
+*{
+    background-color: black;
+}
+h1{
+    
+    padding: 5%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.parrafo{
+    height: 50%;
+    width: 75%;
+    padding: 40%;
+    background-color: aquamarine;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding:15%;
+}

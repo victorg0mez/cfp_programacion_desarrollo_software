@@ -1,0 +1,17 @@
+.padre{
+    height: 5cm;
+    padding: 4cm;
+    margin: auto;
+background-color: aquamarine;
+}
+
+.hijo {
+text-align: center;
+height: 4%;
+padding: 5%;
+}
+
+
+.hijo:hover{
+    background-color: blue;
+}
