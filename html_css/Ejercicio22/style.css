@@ -33,6 +33,8 @@
 }
 .barra-nav{
     background-color:chocolate;
+    display: flex;
+    justify-content: space-b;
     width: 100vw;
     height: 6vh;
 
