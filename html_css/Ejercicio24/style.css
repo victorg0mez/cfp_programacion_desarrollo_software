@@ -7,7 +7,15 @@ img{
     width:250px;
     height: 250px;
     gap: 50px;
-    background-size: cover;
+
+}
+.backroom{
+    display: grid;
+    place-items: center;
+    background: cornflowerblue;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    z-index: 2;
 }
 
 main{  
@@ -18,3 +26,12 @@ main{
     justify-items:center;
     
 }
+
+.img:focus,
+.img:focus-within,
+.img:hover {
+  transform: rotateY(180deg);
+}
+
+
+

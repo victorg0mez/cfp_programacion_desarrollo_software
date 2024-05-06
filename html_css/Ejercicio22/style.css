@@ -31,14 +31,14 @@
     margin-right: 100px;
     list-style: none;
 }
+
 .barra-nav{
     background-color:chocolate;
     display: flex;
-    justify-content: space-b;
-    width: 100vw;
-    height: 6vh;
-
+    width: 100%;
+    justify-content: center;
 }
+
 .logo{
     height: 63px; /*alto*/
     width: 175px; /*ancho*/
