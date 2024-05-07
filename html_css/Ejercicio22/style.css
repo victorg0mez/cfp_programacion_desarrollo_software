@@ -32,12 +32,7 @@
     list-style: none;
 }
 
-.barra-nav{
-    background-color:chocolate;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
+
 
 .logo{
     height: 63px; /*alto*/
