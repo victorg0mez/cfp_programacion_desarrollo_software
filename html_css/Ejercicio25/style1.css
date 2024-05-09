@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(136,151,169,1) 77%);
+}
+
+/*cabecera de la pagina*/
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logotipo{
+    background-color: aqua;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    height: 500px;
+    width:  350px;
+}
+.pequenio-texto{
+    background-color: aqua;
+    position: absolute;
+    top: 15px;
+    width: 500px;
+    height: 100px;
+}
+.redes-sociales{
+    background-color: violet;
+    position: relative;
+    top: 15px;
+    left: 300px;
+    height: 100px;
+    width: 100px;
+}

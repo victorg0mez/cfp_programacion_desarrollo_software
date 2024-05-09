@@ -18,8 +18,8 @@ header{
     height: 100%;
 }
 .logo{
-    height: 140px;
-    width: 250px;
+    max-width: 250px;
+    max-height: 140px;
 }
 .lupa{
     height: 15px;
@@ -35,7 +35,7 @@ header{
 select, button{
     width: 150px;
     height: 60px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
     border-style: none;
     font-size: 20px;
@@ -48,118 +48,24 @@ li{
 /* principal-------------------------------------------- */
 main{
     height: 65vh;
-    background: linear-gradient(90deg, #f4959a,#c382ba,#b5c3de,#00d7c5,#cc7814);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.caja {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Alinea verticalmente los elementos */
-    height: 100%;
-}
-
-.imagen {
+    background-color: aqua;
     background-image: url(figura.webp);
     background-repeat: no-repeat;
-    background-position: left right;
-    height: 700px;
-    width: 700px;
-    background-position: 60px 60px;
-}
-.transparente{
-    width: auto;
-    height: auto;
 }
 
-.parrafo {
-    font-size: 25px;
-    width: 750px;
-    height: 600px;
 
-    float: right; /* Alinea el párrafo a la derecha */
-    margin-left: 350px;
+
+.parrafo{
+    position: relative;
+    
+    width: 300px;
+    height: 300px;
+    border: solid;
 }
 
-.botones {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
 
-.optiones {
-    width: 2540px;
-    margin: 0 10px;
-    padding: 10px 20px;
-    font-size: 25px;
-    cursor: pointer;
-    background: transparent;
-    border: solid white;
-}
 /* pie de pagina-------------------------------------------- */
 footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black; 
-    padding: 20px;
-}
-
-img{
-    height: 100px;
-    width: 100px;
-    
-}
-
-.js{
-    width:600px ;
-    height:400px ;
-    background-color: rgb(35, 34, 34);
-    margin-top: 100px;
-}
-
-.angular{
-    width:600px ;
-    height:400px ;
-    background-color: rgb(35, 34, 34);
-    margin-top: 100px;
-}
-
-.texto{
-    width:600px ;
-    height:400px ;
-    background-color: black;
-    margin-top: 100px;
-}
-
-.mensaje{
- margin-bottom: 50px;
-}
-
-/* Media queries */
-@media only screen and (max-width: 768px) {
-    
-    main {
-        flex-direction: column;
-    }
-
-    .parrafo {
-        margin-left: 0; 
-    }
-
-    .js, .angular, .texto {
-        width: 100%; 
-        margin-top: 20px; 
-    }
-}
-
-@media only screen and (max-width: 414px) {
    
-    .logo {
-        height: 100px; 
-        width: 180px;
-    }
 }
+
