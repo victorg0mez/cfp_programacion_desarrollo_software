@@ -85,7 +85,7 @@ main{
 footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 20%;
+    grid-gap: 30%;
     color: white;
     font-size: 25px;
     background-color: aqua;
@@ -95,10 +95,10 @@ footer{
 
 .personajes{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     
+    flex-direction: row;
     background-color: blue;
-
-    height: auto;
-    width: auto;
+    height: 400px;  
+    width: 500px;
 }
