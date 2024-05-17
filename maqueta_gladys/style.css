@@ -8,8 +8,7 @@
 /* ----------------------------header------------------------------------------- */
 header {
     height: 10vh;
-    width: 100%;
-    /* background-color: blue; */
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +26,7 @@ header {
 }
 
 #principal {
-    background-color: aquamarine;
+    
     height: 3vh;
     width: 80%;
     display: flex;
@@ -36,15 +35,31 @@ header {
     
 }
 a{
-    background-color: blueviolet;
+    
     font-size: 15px;
     font-weight: 100;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     text-decoration: none;
+}
+
+
+/* -------------------------------------iconos---------------------------------- */
+.bi{
+    font-size: 25px;
+    
+}
+.correo,.telefono{
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ----------------------------navegacion------------------------------------------- */
 nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 25px; */
     background-color: white;
     margin-top: 50px;
     height: 3vh ; /*alto*/
@@ -58,10 +73,19 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 213px;
+    width: 198px;
     height: 35px;
     background-color: rgb(247,181,22);
     
+}
+/* --------------------------------------boton----------------------------------- */
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 4vw;
+    background-color: red;
 }
 /* ----------------------------main------------------------------------------- */
 main{
