@@ -51,5 +51,6 @@
 ## [Ejercicio49](JavaScript/Ejercicio%2049.js)
 ## [Ejercicio50](JavaScript/Ejercicio%2050.js)
 ## [Ejercicio51](JavaScript/Ejercicio%2051.js)
+## [Ejercicio52](JavaScript/Ejercicio%2052.js)
 
 
