@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,62 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <!-- Encabezado -->
-    <header class="bg-cyan-100 w-screem h-40">
+    <header class="bg-violet-400 w-screem h-screen">
         <!-- Barra de navagacion -->
-        <nav class="bg-violet-400 w-screem h-10 flex justify-center ">
-            <div class="bg-white w-2/5 h-10 flex flex-row">
-                    <h1>RELAP</h1>
-                    <input type="text" placeholder="Search" class="w-1/4">
-                    <p>Earth</p>
-                    <p>Trash</p>
-                    <p>Gringas</p>
-                    <p>Arbol</p>
-                    <p>Perro</p>
-                    <p><i class="bi bi-heart"></i></p>
+        <nav class="w-screem h-12 flex justify-center ">
+            <!-- Contenedor de la barra de navegacion -->
+            <div class="h-12 w-5/6 flex flex-row justify-between items-center">
+                <h1 class="text-white font-bold">RELAP</h1>
+                <input type="text" placeholder="Search" class="w-1/4">
+                <p class="text-white">Store</p>
+                <p class="text-white">News</p>
+                <p class="text-white">Features</p>
+                <p class="text-white">Blog</p>
+                <p class="text-white">Envios</p>
+                <!-- circulos de los iconos -->
+                <div
+                    class="text-white h-7 w-7 border-zinc-50 text-center border-solid border-2 rounded-full  px-1.5 flex justify-center">
+                    <button><i class="bi bi-heart"></i></button>
+                </div>
+                <div
+                    class="text-white h-7 w-7 border-zinc-50 text-center border-solid border-2 rounded-full  px-1.5 flex justify-center">
                     <p><i class="bi bi-cart4"></i></p>
-                    <p><i class="bi bi-calculator"></i></p>
+                </div>
+                <div
+                    class="text-white h-7 w-7 border-zinc-50 text-center border-solid border-2 rounded-full  px-1.5 flex justify-center">
+                    <p><i class="bi bi-list-columns"></i></p>
+                </div>
             </div>
         </nav>
+        <!-- segunda Parte del encabezado -->
+        <!-- div Contenedor principal -->
+        <div class="bg-cyan-400 h-5/6 w-screem flex justify-between items-center">
+
+            <!-- div del icono 1 -->
+            <div class="bg-orange-400 h-12 w-12">
+                <button class="text-white"><i class="bi bi-caret-left"></i></button>
+            </div>
+            <!-- divs de la imagen -->
+            <div class="bg-white h-full w-full bg-[url('https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00019710507034l.jpg?odnHeight=580&odnWidth=580&odnBg=FFFFFF')] bg-no-repeat bg-container flex justify-center items-center pl-96">
+                <div class="w-96 h-48 bg-pink-400 text-white">
+                    <p class="text-xs font-bold mb-3">MINIM VENIAN</p>
+                    <H1 class="font-bold text-5xl mb-5">Ut labore et <br> dolore</H1>
+                    <button class="h-8 w-28 bg-amber-400 rounded-full text-xs font-bold ml-32">Buy now</button>
+                </div>
+                
+            </div>
+            <!-- div del icono 3 -->
+            <div class="bg-orange-400 h-12 w-12">
+                    <button class="text-white"><i class="bi bi-caret-right"></i></button>
+            </div>
+
+        </div>
     </header>
+
+
 </body>
+
 </html>
