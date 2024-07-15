@@ -11,9 +11,9 @@
 
 <body>
     <!-- Encabezado -->
-    <header class="bg-gradient-to-r from-fuchsia-500 to-violet-500 w-screem h-screem">
+    <header class="bg-gradient-to-r from-fuchsia-500 to-violet-500 w-screen h-screen">
         <!-- Barra de navagacion -->
-        <nav class="w-screem h-12 flex justify-center ">
+        <nav class="w-screem h-12 flex justify-center">
             <!-- Contenedor de la barra de navegacion -->
             <div class="h-12 w-5/6 flex flex-row justify-between items-center">
                 <h1 class="text-white font-bold">RELAP</h1>
@@ -49,8 +49,8 @@
             <i class="h-10 w-11  flex justify-center items-center bi bi-arrow-left-circle text-white text-4xl ml-4"></i>
 
             <!-- divs de la imagen 2 -->
-            <div
-                class="h-full w-4/6 bg-no-repeat bg-contain bg-left flex justify-end items-start" style="background-image: url(https://assets2.razerzone.com/images/pnx.assets/5af9b83e1a46bac99f7ed80fd498390d/razer-blade-14-p10-500x500.webp)">
+            <div class="h-full w-4/6 bg-no-repeat bg-contain bg-left flex justify-end items-start"
+                style="background-image: url(https://assets2.razerzone.com/images/pnx.assets/5af9b83e1a46bac99f7ed80fd498390d/razer-blade-14-p10-500x500.webp)">
                 <div class="w-5/12 h-4/6  text-white mr-4 flex items-start flex-col justify-center pl-8 mt-20">
                     <p class="text-xs font-bold mb-3">MINIM VENIAN</p>
                     <H1 class="font-bold text-5xl mb-5">Ut labore et <br>dolore</H1>
@@ -66,10 +66,34 @@
         </div>
     </header>
     <!-- Contenido principal -->
-        <main >
-            
-        </main>
+    <main class="bg-white w-screen h-screen ">
+        <div class="bg-violet-50 flex justify-between"> <!--div principal de todos los Contenedores -->
+            <div class="w-72 h-36 flex justify-around items-center"> <!--div contenedor del contenido 1-->
+                <h1 class="mb-6"><i class="bi bi-truck text-violet-600 text-4xl"></i></h1>
+                <span><h2 class="text-lg font-bold">Quis Nostrud</h2>
+                <p class="truncate text-xs leading-5 text-gray-400">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Inventore, enim!</p></span>
+            </div>
 
-</body>
+            <div class="w-72 h-36 flex justify-around items-center"> <!--div contenedor del contenido 2-->
+                <h1 class="mb-6"><i class="bi bi-recycle text-violet-600 text-4xl"></i></h1>
+                <span><h2 class="text-lg font-bold">Exercitation</h2>
+                <p class="truncate text-xs leading-5 text-gray-400">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Inventore, enim!</p></span>
+            </div>
+
+            <div class="w-72 h-36 flex justify-around items-center"> <!--div contenedor del contenido 3-->
+                <h1 class="mb-6"><i class="bi bi-person-lock text-violet-600 text-4xl"></i></h1>
+                <span><h2 class="text-lg font-bold">Ullamco Laboris</h2>
+                <p class="truncate text-xs leading-5 text-gray-400">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Inventore, enim!</p></span>
+            </div>
+
+            <div class="w-72 h-36 flex justify-around items-center"> <!--div contenedor del contenido 4-->
+                <h1 class="mb-6"><i class="bi bi-wallet-fill text-violet-600 text-4xl"></i></h1>
+                <span><h2 class="text-lg font-bold">Nisi ut aliquip</h2>
+                <p class="truncate text-xs leading-5 text-gray-400">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Inventore, enim!</p></span>
+            </div>
+        </div>
+    </main>
+
+</body>             
 
 </html>
