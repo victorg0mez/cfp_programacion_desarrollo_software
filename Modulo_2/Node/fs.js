@@ -1,4 +1,4 @@
-const fs = require('fs');
+const promises = require('node:fs/promises');
 
 /* const stats = fs.statSync('texto.txt')
 
@@ -33,9 +33,21 @@ console.log(stats.size);
 
 
 // Ejemplo sincrono
- const data2 = fs.readFileSync('texto.txt','utf-8');
- console.log(data2);
- const data3 = fs.readFileSync('muchoTexto.txt','utf-8');
- console.log(data3);
- const data = fs.readFileSync('texto.txt','utf-8');
- console.log(data);
+//  const data2 = fs.readFileSync('texto.txt','utf-8');
+//  console.log(data2);
+//  const data3 = fs.readFileSync('muchoTexto.txt','utf-8');
+//  console.log(data3);
+//  const data = fs.readFileSync('texto.txt','utf-8');
+//  console.log(data);
+
+promises.readdir('C:/Users/victorgomez/Desktop') 
+    .then((files) => {
+        files.forEach((file) => {
+            console.log(file);
+        });
+    }).catch((err) => {
+        if (err) {
+            console.error(`Error reading directory ${err}`)
+            return
+        }
+    });

@@ -5,4 +5,3 @@ console.log(os.release());
 console.log(os.arch());
 console.log(os.release());
 
-let data = fs.readFile('texto.txt')
