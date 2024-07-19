@@ -22,6 +22,15 @@ const promises = require(`node:fs/promises`);
 
 
 async function promesas(){
+
+try{
+    let data3 = await readFile('muchoTexto.txt','utf8');
+    console.log(data3);
+} catch (err){
+    
+}
+
+
     let data3 = await promises.readFile('muchoTexto.txt','utf8');
     console.log(data3);
     console.log('---------');

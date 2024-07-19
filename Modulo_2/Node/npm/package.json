@@ -1,0 +1,28 @@
+{
+  "name": "ejercicionpm_1",
+  "version": "1.0.0",
+  "description": "Aprendiendo npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorg0mez/cfp_programacion_desarrollo_software.git"
+  },
+  "author": "Victor Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorg0mez/cfp_programacion_desarrollo_software/issues"
+  },
+  "homepage": "https://github.com/victorg0mez/cfp_programacion_desarrollo_software#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "color": "^4.2.3",
+    "express": "^4.19.2"
+  }
+}
