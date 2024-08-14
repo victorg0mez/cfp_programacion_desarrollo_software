@@ -1,0 +1,52 @@
+<!-- <div class="bg-violet-500 flex justify-center items-center w-screen h-screen" id="container">
+    
+    
+    <button id="lupa" class="bg-white h-8 w-8 flex justify-center items-center">
+        <input type="text" class="h-8 w-0 duration-1000 " placeholder="Buscar" id="ingreso-letras" />
+    
+        <i class="bi bi-search"></i>
+      
+    </button>
+  </div>
+  
+
+<script>
+const buscar = document.getElementById('lupa');
+const input = document.getElementById('ingreso-letras');
+
+buscar?.addEventListener('click', () => {
+  input?.classList.toggle('w-40'); // 
+});
+
+
+
+   
+</script> -->
+
+
+<div class="flex w-full justify-center items-center">
+    <div class="bg-white h-10 w-fit flex p-2">
+        <!-- add autofocus -->
+        <input class="w-0 focus:outline-none" type="text" id="input-search" placeholder="Search..."/> 
+        
+        <i class="bi bi-search h-7 cursor-pointer" id="icon-search"></i>
+    </div>
+</div>
+
+<style>
+    #input-search {
+        transition: width 0.9s;
+    }
+</style>
+
+<script>
+    const input = document.getElementById("input-search");
+    const icon = document.getElementById("icon-search");
+
+    icon?.addEventListener("click", () => {
+        input?.classList.toggle("w-40");
+        input?.focus();
+    });
+
+</script>
+

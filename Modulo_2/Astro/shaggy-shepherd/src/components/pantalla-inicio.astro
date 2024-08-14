@@ -1,0 +1,72 @@
+<div class="min-h-full">
+    <nav class="bg-gray-800">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-between">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <i class="bi bi-person-circle text-white text-3xl"></i>
+                    </div>
+                </div>
+                <div class="flex-1 flex justify-center">    
+                    <input
+                        type="text"
+                        placeholder="Buscar"
+                        class="w-3/4 rounded px-4 py-2"
+                    />
+                </div>
+                <div class="flex items-center">
+                    <div class="ml-4">
+                        <button>
+                            <i class="bi bi-sun-fill text-white text-3xl"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Div de espaciado y separacion -->
+<div class="flex justify-between">
+    <div class="bg-blue-100 h-screen w-1/4 flex flex-col items-center pt-0">
+        <h1
+            class="bg-black h-10 w-32 text-white flex items-center justify-center font-bold"
+        >
+            Tareas
+        </h1>
+        <div class="flex flex-col gap-16 mt-10">
+            <button class="bg-black h-5 w-32 text-white text-sm"
+                >Pendientes</button
+            >
+            <button class="bg-black h-5 w-32 text-white text-sm"
+                >Realizadas</button
+            >
+            <button class="bg-black h-5 w-32 text-white text-sm"
+                >Calendario</button
+            >
+        </div>
+    </div>
+
+    <!-- Main cuerpo principal -->
+
+    <main class="bg-violet-100 h-screen w-full flex flex-col items-center pt-0">
+        <div class="flex justify-around  w-full">
+            <button class="bg-black h-10 w-32 text-white text-sm">Todo</button>
+            <button class="bg-black h-10 w-32 text-white text-sm">Dia</button>
+            <button class="bg-black h-10 w-32 text-white text-sm">Mes</button>
+            <button class="bg-black h-10 w-32 text-white text-sm">Año</button>
+        </div>
+    </main>
+
+    <!-- Div lateral derecho -->
+    <div class="bg-red-100 h-screen w-1/4 flex flex-col items-center pt-0">
+            <!-- Botones de la fecha -->
+            <div class="flex justify-evenly w-full ">
+                
+                <button class="bg-black h-10 w-12 text-white text-xs bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">Fecha </button>
+                <button class="bg-black h-10 w-12 text-white text-xs bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">Hora</button>
+            </div>
+<!-- Div del boton que es fijo -->
+            <div class="flex justify-around bg-yellow-100 w-18 h-18 fixed bottom-9 right-6 rounded-full flex items-center"><button> <i class="bi bi-plus-circle text-5xl flex justify-center"></i></button></div>
+    </div>
+</div>
+

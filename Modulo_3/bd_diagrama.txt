@@ -1,0 +1,53 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+Table estudiantes {
+  id integer [primary key]
+  nombre varchar2(100)
+  profesor_id integer
+  direccion varchar2(100) 
+  curso_id integer
+  telefono integer
+  correo varchar2(100)
+  fecha_ingreso varchar2(250 )
+}
+
+Table profesores {
+   id integer [primary key]
+   estudiante_asignado integer
+   nombre varchar2(100)
+   especialidad varchar2(250)
+   contacto varchar2(100)
+}
+
+Table cursos {
+   id integer
+   profesor_id integer
+   nombre varchar2(100)
+   descripcion varchar2(250)
+   creditos varchar2(100)
+   requisitos varchar2(500)
+   jornada varchar2(300)
+}
+
+Table calificaciones {
+  id_estudiantes integer
+  cursos_inscritos varchar2(250)
+}
+
+Table inscripciones {
+  id_estudiantes integer
+  id_cursos varchar2(250)
+}
+
+
+Table horarios {
+  id_cursos integer
+  horario varchar2(300)
+}
+Ref: estudiantes.id > inscripciones.id_estudiantes // many-to-one
+Ref: profesores.id > inscripciones.id_estudiantes
+Ref: profesores.estudiante_asignado > inscripciones.id_estudiantes
+Ref: estudiantes.profesor_id> cursos.profesor_id
+Ref: cursos.id  > calificaciones.cursos_inscritos
+Ref: horarios.id_cursos > calificaciones.id_estudiantes

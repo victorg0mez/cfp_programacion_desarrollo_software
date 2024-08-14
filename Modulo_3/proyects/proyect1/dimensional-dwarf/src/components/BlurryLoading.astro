@@ -1,0 +1,31 @@
+<div id="opacity-img" class="absolute blur-[100px] h-screen w-full bg-cover bg-no-repeat" style="background-image: url('https://cdn.fleetfeet.com/a:2.4-f:cover-w:1440/assets/ASICS-Superblast-2-17.jpg?s=cd8ef241')">
+</div>
+<span id="loading-span" class="absolute text-white text-9xl" >
+    0%
+</span>
+
+<script>
+    const img = document.getElementById("opacity-img");
+    const span = document.getElementById("loading-span");
+    let load = 0;
+    let interval = 0;
+
+    function handleInterval() {
+        load++;
+
+        if (load > 99) {
+            clearInterval(interval);
+        }
+
+        if(img && span) {
+            img.style.filter = `blur(${100 - load}px)`;
+            span.style.opacity = `${100 - load}%`;
+            span.innerText = `${load}%`;
+        }
+    }
+
+    interval = setInterval(handleInterval, 20);
+
+    
+
+</script>
