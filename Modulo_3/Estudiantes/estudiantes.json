@@ -1,0 +1,44 @@
+[
+    {
+      "name": "John Smith",
+      "id": 1,
+      "edad": 23,
+      "curso": "CCNA Redes",
+      "establecimiento": "Centro Bartolome Ambrosio"
+    },
+    {
+      "name": "Manuel Soto",
+      "id": 2,
+      "edad": 23,
+      "curso": "Motos",
+      "establecimiento": "Intecap"
+    },
+    {
+      "name": "Luisito Comunica",
+      "id": 3,
+      "edad": 23,
+      "curso": "Soldadura",
+      "establecimiento": "Centro Bartolome Ambrosio"
+    },
+    {
+      "name": "Giancarlo Santizo",
+      "id": 4,
+      "edad": 23,
+      "curso": "CCNA Redes",
+      "establecimiento": "Centro Bartolome Ambrosio"
+    },
+    {
+      "name": "Nuevo Estudiante",
+      "id": 5,
+      "edad": 25,
+      "curso": "CCNA Seguridad",
+      "establecimiento": "Centro Bartolome Ambrosio"
+    },
+    {
+      "name": "Otro Estudiante",
+      "id": 6,
+      "edad": 22,
+      "curso": "CCNA Redes",
+      "establecimiento": "Centro Bartolome Ambrosio"
+    }
+  ]

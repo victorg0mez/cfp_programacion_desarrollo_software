@@ -1,0 +1,48 @@
+---
+import Lay from "../layouts/Layout.astro";
+import jsonEstudiantes from "../../estudiantes.json";
+
+export interface Root {
+  name: string;
+  id: number;
+  edad: number;
+  curso: string;
+  establecimiento:string
+}
+
+console.log(jsonEstudiantes);
+const estudiante = jsonEstudiantes as Root;
+---
+
+<Lay>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <main class="text-white bg-violet-400">
+    <table class="border text-center w-screen">
+      <caption>Informacion</caption>
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>estudiante</th>
+            <th>edad</th>
+            <th>curso</th>
+            <th>establecimiento</th>
+          </tr>
+        </thead>
+         
+        <tbody>
+          <tr>
+            <td>{estudiante.id}</td>
+            <td>{estudiante.name}</td>
+            <td>{estudiante.edad}</td>
+            <td>{estudiante.curso}</td>
+            <td>{estudiante.establecimiento}</td>
+          </tr>
+        </tbody>
+    </table>
+  </main>
+
+
+<script>
+  
+</script>
+</Lay>
